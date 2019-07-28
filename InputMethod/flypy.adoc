@@ -1,0 +1,65 @@
+= 小鹤双拼学习
+Ynjxsjmh
+:toc: right
+:experimental: 
+
+== 双拼介绍
+双拼是汉语拼音输入法的一种编码方案。相对于全拼而言，使用双拼输入汉字时只需输入一个代表声母的字母，一个代表韵母的字母（共两个字母），就可以打出任意一个中文单字了。
+
+
+== 输入法安装
+PC上我使用的是Rime，因此只需要配置小鹤双拼输入方案即可， https://github.com/rime/rime-double-pinyin 中的 `double_pinyin_flypy.schema.yaml` 就是小鹤双拼。
+
+Android 我使用的是 https://github.com/osfans/trime[同文输入法]，要想使用小鹤方案，只需将上述文件放入 Rime 文件下即可。同文输入法的更多知识，可以在其 wiki 处了解。
+
+至于更多输入方案，可以在 https://github.com/rime/plum/blob/master/README.md#packages 处了解。
+
+== 学习指引
+到 https://www.flypy.com/ 搜索 `小鹤音形入门` 和 `学习指引`
+
+=== 双拼方案
+
+* 双拼方案：主要是韵母键位的设计方案，单声母键位不变
++
+即把三个双声母 zh ch sh 和35个韵母安排到键盘的26个字母键位上的设计方案
+
+* 零声母方案：指全拼中无声母韵母音节在双拼中的处理方案
++
+本方案以韵母首字母为零声母，即把韵母的首字母当作声母
+
+** 单字母韵母，零声母 + 韵母所在键，如：啊＝kbd:[aa]  哦=kbd:[oo]  额=kbd:[ee]
+** 双字母韵母，零声母 + 韵母末字母（表现形式同全拼），如： 爱＝kbd:[ai]  恩=kbd:[en]  欧=kbd:[ou]
+** 三字母韵母，零声母 + 韵母所在键，如：昂（ang）＝kbd:[ah]
+
+
+
+:imagesdir: ../images/InputMethod
+image::flypy.png[]
+
+* 红色的是声母
+* 蓝色的是韵母
+* 绿色的是口诀
+
+
+=== 记忆口诀（官方版）
+
+....
+Qiu  Wei  Ruan T_ue_ve Yun U_shu I_chi   Song_iong Dai Fen  Geng Hang J_an
+秋   闱   软   月      云  梳    翅      松  拥    黛  粉   更   航   安
+                                                              
+Kuai _ing Liang_uang   Zou Xia   _ua     Pie Cao   V_zhui_v Bin  Niao Mian
+快   莺   两   望      奏  夏    蛙      撇  草    追  鱼   滨   鸟   眠
+....
+
+== 练习
+1. 到小鹤网盘 http://flypy.ys168.com 下载「小鹤专用添雨跟打器」（在小鹤音形windows版目录下的打字练习文件夹内），用这个工具测试其中所提一小段文字，熟悉击键。
+2. 随便找个视频，跟着字幕打。
+
+
+== 参考资料
+https://www.flypy.com/pin.html[双 拼]
+
+== 延伸阅读
+https://www.zhihu.com/question/321050064/answer/684295680[如何消灭五笔输入法？ - 我宣吃浮兰人的回答 - 知乎]
+
+https://sspai.com/post/52126[有必要学习双拼形码吗？]
